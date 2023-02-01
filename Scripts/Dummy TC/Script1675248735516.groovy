@@ -22,6 +22,6 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.takeFullPageScreenshot()
-
+//Hello World
 WebUI.closeBrowser()
 
