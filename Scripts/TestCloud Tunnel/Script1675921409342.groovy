@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://localhost:8080/login?from=%2F')
+WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.delay(5)
 
