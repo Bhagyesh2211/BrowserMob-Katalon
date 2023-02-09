@@ -19,12 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.maximizeWindow()
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.navigateToUrl('http://localhost:8080/login?from=%2F')
+
+WebUI.delay(5)
 
 WebUI.takeFullPageScreenshot()
 
-//Hello World
 WebUI.closeBrowser()
 

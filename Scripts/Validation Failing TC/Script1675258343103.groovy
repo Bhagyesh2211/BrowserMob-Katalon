@@ -21,10 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.verifyElementText(findTestObject('Object Repository/Validation Failing TO/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
+    'CURA Healthcare Service')
 
-WebUI.takeFullPageScreenshot()
-
-//Hello World
 WebUI.closeBrowser()
 
